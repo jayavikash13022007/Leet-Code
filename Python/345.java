@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String reverseVowels(String s) {
         int left = 0;
         int n = s.length();
@@ -25,6 +25,4 @@ public class Solution {
         String word = new String(c);
         return word;
     }
-} {
-    
 }
