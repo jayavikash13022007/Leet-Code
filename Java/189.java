@@ -1,0 +1,10 @@
+class Solution {
+    public void rotate(int[] nums, int k) {
+        int n = nums.length;
+        k = k%n;
+        int[] arr = new int[k];
+        for(int i=n-k;i<n;i++) arr[i-n+k] = nums[i];
+        for(int i=n-1;i>k-1;i--) nums[i] = nums[i-k];
+        for(int i=0;i<k;i++) nums[i] = arr[i];
+    }
+}
