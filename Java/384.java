@@ -1,4 +1,4 @@
-public class 384 extends GuessGame {
+class Solution extends GuessGame {
     public int guessNumber(int n) {
         int start = 1, stop = n, mid = 0;
         while(start<=stop){
