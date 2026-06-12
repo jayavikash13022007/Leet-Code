@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int firstUniqChar(String s) {
         HashMap<Character,Integer> d = new HashMap<>();
